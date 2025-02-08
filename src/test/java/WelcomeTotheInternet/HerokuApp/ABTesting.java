@@ -16,6 +16,8 @@ public class ABTesting {
 		System.out.println(driver.findElement(By.tagName("p")).getText());
 		Thread.sleep(2000);
 		driver.close();
+		
+		System.out.println("Hey git how are you");		
 	}
 
 }
